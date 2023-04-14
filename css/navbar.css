@@ -1,6 +1,13 @@
 .nav-container {
 	background-color: black;
 	color: rgba(255, 255, 255, 0.712);
+	
+}
+
+.nav-container-sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
 }
 
 ul {
@@ -12,7 +19,6 @@ ul {
 	background-color: #333;
     display: flex;
     justify-content: flex-end;
-
   }
   
   li {
